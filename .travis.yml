@@ -6,6 +6,7 @@ before_install:
   - nvm install 4.5.0
   - nvm use 4.5.0
   - go get github.com/tools/godep
+  - go get github.com/mjibson/esc
   - make get
 install: make travisci
 script: make test
