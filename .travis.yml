@@ -7,6 +7,7 @@ before_install:
   - nvm use 4.5.0
   - go get github.com/tools/godep
   - go get github.com/mjibson/esc
+  - go get github.com/fzipp/gocyclo
   - make get
 install: make travisci
 script: make test
