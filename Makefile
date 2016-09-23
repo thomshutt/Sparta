@@ -29,7 +29,7 @@ validate:
 format:
 	go fmt .
 
-travisci: get generate validate
+travisci: generate validate
 	go build .
 
 build: format generate validate
